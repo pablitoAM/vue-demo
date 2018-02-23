@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>vue-demo</title>
+</head>
+
+<body>
+    <div id="app">
+        <x-nav></x-nav>
+        <x-view>
+            <x-search>
+                <x-search-bar></x-search-bar>
+                <x-search-results>
+                    <x-search-item>Whatever</x-search-item>
+                </x-search-results>
+                <a href="#">Show All</a>
+            </x-search>
+            <div class="results"></div>
+        </x-view>
+        <x-footer></x-footer>
+    </div>
+    <script src="/dist/build.js"></script>
+</body>
+
+</html>
